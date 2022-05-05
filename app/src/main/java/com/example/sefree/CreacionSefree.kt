@@ -27,6 +27,7 @@ class CreacionSefree : AppCompatActivity() {
         createAccount()
         signIn()
         recuperarClave()
+        //kjhskdjfhdkjfh
 
         binding.tvPoliticasycondiones.setOnClickListener{
             val miIntent = Intent(
