@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "224574506330",
+    "project_id": "sefree-c16e0",
+    "storage_bucket": "sefree-c16e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224574506330:android:a7ea979b3dcf0e326e9f63",
+        "android_client_info": {
+          "package_name": "com.example.sefree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224574506330-stibhsvffsl45i0r7o1rprio0dhgo7r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaURx3wD3FwJP9hNbtQJQJn94vsgZ_n-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224574506330-stibhsvffsl45i0r7o1rprio0dhgo7r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

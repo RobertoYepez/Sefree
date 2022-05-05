@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="La sección Privacidad de la app incluye información sobre los tipos de datos que el desarrollador o sus socios externos pueden recopilar durante el uso normal de la app, pero es posible que no describa todas las prácticas del desarrollador. Los datos recopilados del usuario también pueden diferir de los que se presentan en esta sección. Por ejemplo, los datos recopilados pueden depender de las funciones que utilice el usuario, si sólo utiliza una versión de pago de una app o si es un niño.  Además, los desarrolladores no están obligados a enumerar datos en esta sección cuando los datos recopilados cumplen todos los siguientes criterios:  • Proporcionas los datos a la app directamente en la interfaz de usuario de la app.  • Tu nombre o el nombre de tu cuenta aparece claramente junto a los datos que envías.  • El envío de datos es opcional, lo que significa que no es necesario que proporciones los datos para que la app funcione.  • Eliges afirmativamente proporcionar los datos cada vez que se recopilan.  • La recopilación de datos se produce sólo en casos poco frecuentes que no forman parte de la funcionalidad principal de la app.  • Los datos sólo se utilizan para la funcionalidad, la personalización o el análisis de la app, pero no para rastrearte en apps o sitios web o para mostrarte publicidad.  En el caso de determinadas apps que facilitan la prestación de servicios financieros regulados o investigación sanitaria, los desarrolladores pueden optar por no incluir datos en la sección Privacidad de la app bajo las siguientes circunstancias:  Los datos son recopilados por una app que facilita la prestación de servicios financieros regulados y:  • La recopilación de datos regulados sobre ti es opcional y ocurre sólo en casos que no forman parte de la funcionalidad principal de la app.  • Los datos recopilados sobre ti están cubiertos por un aviso de privacidad según las leyes o regulaciones aplicables sobre servicios financieros o protección de datos.  • El aviso de privacidad establece que los datos no se comparten con terceros no afiliados con el fin de venderte otros productos y servicios.  • Tus datos no están vinculados a datos de terceros con fines publicitarios ni se comparten con un intermediario de datos, excepto con fines relacionados al fraude o cuando el intermediario de datos es una agencia de información al consumidor y los datos se comparten con fines crediticios.  Los datos que se recopilan sobre ti están sujetos a un formulario de consentimiento informado que hayas aceptado como parte de un estudio de investigación de salud que haya sido revisado y aprobado por un comité de revisión institucional o comité de ética, y no se utilizan para el rastreo a través de apps o sitios web.  Esta sección también excluye información sobre los datos recopilados por el sistema operativo del dispositivo, a los que no tienen acceso los desarrolladores. En estos casos, los datos recopilados se presentarán en declaraciones por separado cuando configures tu Apple ID, tus dispositivos y otros servicios de Apple.  Para obtener más información sobre los datos recopilados por el desarrollador y cómo se utilizan, consulta la política de privacidad del desarrollador." />
+
+        <Button
+            android:id="@+id/bttAceptar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Acepto" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
