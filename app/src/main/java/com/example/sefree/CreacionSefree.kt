@@ -29,7 +29,7 @@ class CreacionSefree : AppCompatActivity() {
         recuperarClave()
         //kjhskdjfhdkjfh
 
-        binding.tvPoliticasycondiones.setOnClickListener{
+        binding.switch2.setOnClickListener{
             val miIntent = Intent(
                 this,PoliticasYCondiciones::class.java)
 
