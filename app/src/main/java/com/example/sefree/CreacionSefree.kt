@@ -29,11 +29,12 @@ class CreacionSefree : AppCompatActivity() {
         recuperarClave()
         //kjhskdjfhdkjfh
 
-        binding.switch2.setOnClickListener{
+        binding.switch2.setOnClickListener {
             val miIntent = Intent(
-                this,PoliticasYCondiciones::class.java)
+                this, PoliticasYCondiciones::class.java)
 
-            startActivityForResult(miIntent,1)}
+            startActivityForResult(miIntent, 1)
+        }
 
     }
 
@@ -42,14 +43,16 @@ class CreacionSefree : AppCompatActivity() {
     override fun onActivityResult(
         requestCode: Int,
         resultCode: Int,
-        data: Intent?) {
+        data: Intent?,
+    ) {
         super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode==1){
-            if(resultCode==Activity.RESULT_OK){
+        if (requestCode == 1) {
+            if (resultCode == Activity.RESULT_OK) {
                 binding.switch2.isChecked = true
             }
         }
     }
+
     //Inicializa la sesion sin necesidad de volver a poner data
     override fun onStart() {
         super.onStart()
@@ -88,9 +91,10 @@ class CreacionSefree : AppCompatActivity() {
                 } else {
                     Toast.makeText(this, "campo(s) vacio(s)", Toast.LENGTH_SHORT).show()
                 }
+            } else {
+                Toast.makeText(this, "Aceptar los terminos y condiciones", Toast.LENGTH_SHORT)
+                    .show()
             }
-
-            else{Toast.makeText(this,"Aceptar los terminos y condiciones",Toast.LENGTH_SHORT).show()}
         }
     }
 
@@ -137,14 +141,13 @@ class CreacionSefree : AppCompatActivity() {
     }
 
 
+    private fun recuperarClave() {
 
-    private fun recuperarClave(){
+        binding.tvRecuperarclave.setOnClickListener() {
 
-        binding.tvRecuperarclave.setOnClickListener(){
-
-        val claveIntent = Intent(this,RecupClave::class.java)
-        startActivity(claveIntent)
-    }
+            val claveIntent = Intent(this, RecupClave::class.java)
+            startActivity(claveIntent)
+        }
     }
 
     private fun sendEmailVerification() {   //verificacion de correo enviando un mensaje a la bandeja del email

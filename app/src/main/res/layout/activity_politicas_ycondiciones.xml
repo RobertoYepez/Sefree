@@ -23,7 +23,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Acepto" />
+            android:background="@drawable/custom_buttom"
+            android:text="Acepto"
+            android:textColor="@color/white"
+            />
 
 
     </LinearLayout>

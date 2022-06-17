@@ -40,7 +40,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/correo_electronico"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColorHint="#B29DDB" />
 
         <Space
             android:layout_width="match_parent"
@@ -52,7 +53,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/contrase_a"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColorHint="#B29DDB" />
 
         <Space
             android:layout_width="match_parent"
@@ -76,14 +78,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Registrarme" />
+            android:background="@drawable/custom_buttom"
+            android:text="Registrarme"
+            android:textColor="@android:color/white" />
+
 
         <Button
             android:id="@+id/bttonAcceder"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
-            android:text="acceder" />
+            android:background="@drawable/custom_buttom"
+            android:text="acceder"
+            android:textColor="@color/white" />
 
     </LinearLayout>
 
@@ -94,6 +103,10 @@
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal|center_vertical"
         android:text="¿Clave olvidada?"
+        android:textColor="#b29ddb"
+
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/linearLayout2" />

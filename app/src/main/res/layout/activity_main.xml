@@ -21,9 +21,10 @@
 
     <Button
         android:id="@+id/CrearCuenta"
-        android:layout_width="210dp"
-        android:layout_height="60dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:text="Comenzar"
+        android:background="@drawable/custom_buttom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
